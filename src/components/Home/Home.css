@@ -42,4 +42,5 @@
     display: flex;
     align-content: center;
     justify-content: center;
+    border-radius: 180px;
 }

@@ -12,29 +12,31 @@ function Nav() {
         <div className="Nav_container">
 
             <div className="Logo_container" >
+            <Link className='navLink' to="/">
                 <img src={VibeMvmtLogo} alt="" />
-                {/* <h3>logo</h3> */}
+                </Link>
             </div>
 
             <div id="Nav_linksContainer">
                 <ul className="navbar_links">
-                    <li>SHOP</li>
-                    <li>ABOUT</li>
-                    <li>MOVEMENTS</li>
+                <Link className='navLink' to="/shop"><li>SHOP</li></Link>
+                <Link className='navLink' to="/about"><li>ABOUT</li></Link>
+                <Link className='navLink' to="/movements"><li>MOVEMENTS</li></Link>
                 </ul>
 
 
             </div>
-            <button className="login_button">Login / Register</button>
+            <div className="Login_container" >
+            <Link className='navLink' to="/"><h5>Login / Register</h5></Link>
+            </div>
 
             <div id="Checkout__Container">
-                <ShoppingBasket id="Nav__ShoppingBasket" />
+            <Link className='navLink' to="/checkout"><ShoppingBasket id="Nav__ShoppingBasket" /></Link>
 
             </div>
 
 
         </div>
-
 
     )
 

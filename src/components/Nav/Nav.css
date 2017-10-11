@@ -1,23 +1,30 @@
 .Nav_container {
-    height: 100px;
+    height: 104px;
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
     background-color: white;
     box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 5px 3px 0 rgba(0, 0, 0, 0.2);
-    padding-right: 5px;
-    padding-left: 15px;
   }
 
-  .Logo_container {
-      height: 100px;
-      width: 100px;
-      
+  .Logo_container img {
+      height: 95px;
+      width: 95px;
+      display: flex;
+      justify-content: center;
+      border-radius: 180px;
+      cursor: pointer;
   }
+
+  .navLink {
+      color: black;
+  }
+
 
   #Nav_linksContainer {
     height: 100px;
-    width: 75%;
+    width: 70%;
     display: flex;
     background-color: white;
     align-items: center;
@@ -34,16 +41,31 @@
         font-family: sans-serif;
 }
 
+.login_container {
+    height: 95px;
+    width: 95px;
+    display: flex;
+    justify-content: center;
+    border-radius: 180px;
+    padding-right: 20px;
+}
+
+/* .login_button {
+    color: black;
+    background-color: white;
+    border: none;
+    padding-right: 50px;
+} */
+
 .Nav__label {
     display: flex;
     justify-content: space-between;
 }
 
-  
-
   #Checkout__Container {
       font-size: 32px;
       color: black;
+      padding-left: 25px;
   }
 
   
