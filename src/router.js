@@ -19,9 +19,9 @@ export default (
             <Route component={Shop} exact path='/shop'/>
             <Route component={About} exact path='/home' />
             <Route component={Movements} exact path='/' />
-            <Route component={Movements} exact path='/' />
-            <Route component={} exact path='/' />
-            <Route component={Home} exact path='/' />
+            <Route component={Login} exact path='/' />
+            <Route component={Checkout} exact path='/' />
+            <Route component={Cart} exact path='/' />
 
         </div>
     </Router>

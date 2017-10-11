@@ -5,12 +5,15 @@
 
 .Carousel_container {
     display: flex;
-    height: 900px;
-    width: 1440px;
+    height: 670px;
+    width: 100%;
     display: flex;
     justify-content: center;
     color: black;
-    background-color: black;
+    background-size: cover;
+    background-position: center bottom;
+    background-color: white;
+    overflow: hidden;
 }
 
 .Collections_header {

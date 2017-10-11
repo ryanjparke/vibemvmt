@@ -2,18 +2,17 @@
     height: 100px;
     width: 100%;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     background-color: white;
     box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 5px 3px 0 rgba(0, 0, 0, 0.2);
+    padding-right: 5px;
+    padding-left: 15px;
   }
 
   .Logo_container {
       height: 100px;
       width: 100px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
+      
   }
 
   #Nav_linksContainer {

@@ -1,0 +1,46 @@
+.About_container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Story_container {
+    height: 500px;
+    width: 70%;
+    font-size: 19px;
+    padding: 5px;
+    border-style: solid;
+    border-width: 2px;
+    
+}
+
+.Tribe_header {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.Tribe_container {
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.Tribe_member {
+    Height: 300px;
+    width: 300px;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

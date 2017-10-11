@@ -22,10 +22,6 @@ class Home extends Component {
                     <Carousel>
                         <Carousel.Item>
                             <img width={1440} height={600} alt="900x500" src={ImgOne} />
-                            <Carousel.Caption>
-                                <h3>First slide label</h3>
-                                <p> Write something here</p>
-                            </Carousel.Caption>
                         </Carousel.Item>
                         <Carousel.Item>
                             <img width={1440} height={600} alt="900x500" src={ImgTwo} />

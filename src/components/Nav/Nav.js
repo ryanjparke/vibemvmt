@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { Connect } from 'react-redux';
-// import VibeMvmtLogo from './../../VibeMvmtLogo.jpg';
+import VibeMvmtLogo from './../../assets/VibeMvmtLogo.png';
 
 import './Nav.css';
 
@@ -12,8 +12,8 @@ function Nav() {
         <div className="Nav_container">
 
             <div className="Logo_container" >
-                {/* <img src={VibeMvmtLogo} alt="" /> */}
-                <h3>logo</h3>
+                <img src={VibeMvmtLogo} alt="" />
+                {/* <h3>logo</h3> */}
             </div>
 
             <div id="Nav_linksContainer">
