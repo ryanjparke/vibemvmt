@@ -27,7 +27,7 @@ function Nav() {
 
             </div>
             <div className="Login_container" >
-            <Link className='navLink' to="/"><h5>Login / Register</h5></Link>
+            <a className="Login_button"href={process.env.REACT_APP_LOGIN }><h5>Login / Register</h5></a>
             </div>
 
             <div id="Checkout__Container">
