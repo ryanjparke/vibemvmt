@@ -50,23 +50,38 @@
     padding-right: 20px;
 }
 
-/* .login_button {
+.Login_button {
     color: black;
-    background-color: white;
-    border: none;
-    padding-right: 50px;
-} */
+}
 
 .Nav__label {
     display: flex;
     justify-content: space-between;
 }
 
-  #Checkout__Container {
+  #Checkout_button__Container {
       font-size: 32px;
       color: black;
       padding-left: 25px;
   }
+
+.Side_nav_container {
+    height: 78%;
+    width: 360px;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    border-style: solid;
+    border-width: 2px;
+    background-color: none;
+    overflow-x: hidden;
+    padding-top: 20px;
+    color: black;
+
+}
 
   
 
