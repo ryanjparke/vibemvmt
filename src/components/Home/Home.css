@@ -44,3 +44,16 @@
     justify-content: center;
     border-radius: 180px;
 }
+
+.Indv_hoodie_container img {
+    height: 400px;
+    width: 400px;
+    background-color: grey;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    border-radius: 180px;
+    border-style: solid black;
+    border-width: 2px;
+
+}

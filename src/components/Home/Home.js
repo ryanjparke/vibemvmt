@@ -5,6 +5,7 @@ import { Carousel } from 'react-bootstrap';
 import ImgOne from '../../assets/ImgOne.jpg';
 import ImgTwo from '../../assets/ImgTwo.jpg';
 import ImgThree from '../../assets/ImgThree.jpg';
+import HoodieModel from '../../assets/HoodieModel.jpg';
 
 class Home extends Component {
     constructor(props) {
@@ -48,8 +49,8 @@ class Home extends Component {
                     <div className="Indv_containers">
                     <h2>Caps</h2>
                     </div>
-                    <div className="Indv_containers">
-                    <h2>Hoodies</h2>
+                    <div className="Indv_hoodie_container">
+                    <img src={HoodieModel} alt="" />
                     </div>
                     <div className="Indv_containers">
                     <h2>Tees</h2>
