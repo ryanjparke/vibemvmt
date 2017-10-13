@@ -1,0 +1,39 @@
+.Shop_container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.quote_header {
+    margin-top: 30px;
+    margin-left: 170px;
+    height: 50px;
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    border-top: solid;
+    border-bottom: solid;
+    border-width: 1px;
+
+}
+
+.Products_header_nav {
+    margin-top: 30px;
+    /* margin-left: 350px; */
+    height: 50px;
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-top: solid;
+    border-bottom: solid;
+    border-width: 1px;
+
+}
+
+
+
+

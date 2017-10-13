@@ -7,8 +7,28 @@ import './Nav.css';
 
 import ShoppingBasket from 'react-icons/lib/md/shopping-basket';
 
-function Nav() {
+class Nav extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            slideVisible: false,
+            // iconVisible: true
+
+        }
+        this.openSlide = this.openSlide.bind(this);
+    }
+
+    openSlide() {
+        this.setState({
+            slideVisible: !this.state.slideVisible,
+            // iconVisible: !this.state.iconVisible
+        })
+    }
+
+
+    render() {
     return (
+        
         <div className="Nav_container">
 
             <div className="Logo_container" >
@@ -30,19 +50,24 @@ function Nav() {
             <a className="Login_button"href={process.env.REACT_APP_LOGIN }><h5>Login / Register</h5></a>
             </div>
 
-            <div id="Checkout_button__Container">
-            <Link className='navLink' to="/checkout"><ShoppingBasket id="Nav__ShoppingBasket" /></Link>
+            <div className={this.state.slideVisible ? 'slide_open' : 'slide'}>
+            
+
+            <div id="Basket_container">
+            <ShoppingBasket onClick={ this.openSlide } />
             </div>
 
-            {/* <div className="Side_nav_container">
-                <h2>CART</h2>
-                </div> */}
+
+            
 
 
         </div>
 
-    )
+        </div>
 
+    );
+
+}
 }
 
 export default Nav;

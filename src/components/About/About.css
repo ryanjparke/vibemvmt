@@ -36,11 +36,12 @@
 
 }
 
-.Tribe_member {
+.Tribe_member img {
     Height: 300px;
     width: 300px;
     background-color: grey;
     display: flex;
     align-items: center;
     justify-content: center;
+    overflow: hidden;
 }

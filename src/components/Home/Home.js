@@ -46,16 +46,16 @@ class Home extends Component {
                 </div>
 
                 <div className="Collections_container">
-                    <div className="Indv_containers">
-                    <h2>Caps</h2>
+                    <div className="Indv_hoodie_container">
+                    <img src={HoodieModel} alt="" />
                     </div>
                     <div className="Indv_hoodie_container">
                     <img src={HoodieModel} alt="" />
                     </div>
-                    <div className="Indv_containers">
-                    <h2>Tees</h2>
+                    <div className="Indv_hoodie_container">
+                    <img src={HoodieModel} alt="" />
                     </div>
-                    </div>
+                </div>
 
 
             </div>
