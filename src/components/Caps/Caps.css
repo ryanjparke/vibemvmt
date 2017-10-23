@@ -1,0 +1,64 @@
+.Caps_shop_container {
+    height: 1000px;
+    width: 100%;
+    margin-top: 105px;
+    background-color: white;
+    /* flex-direction: column; */
+    /* opacity: 0.4; */
+}
+
+.Caps_header {
+    height: 100px;
+    width: 100%;
+    background-color: white;
+    /* opacity: 0.5; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Caps_items_container {
+    height: 900;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.indv_cap {
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.indv_cap img {
+    height: 220px;
+    width: 220px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 1px;
+    /* opacity: 1; */
+}
+
+.indv_green_cap {
+    height: 220px;
+    width: 220px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.indv_green_cap img {
+    height: 270px;
+    width: 200px;
+    display: flex;
+    overflow: hidden;
+
+
+}
+

@@ -19,7 +19,7 @@ class Shop extends Component {
                 </div>
                 <div className="Products_header_nav" >
                     <ul className="products_links">
-                    <Link className='navLink' to="/checkout"><li>CAPS</li></Link>
+                    <Link className='navLink' to="/caps"><li>CAPS</li></Link>
                     <li> | </li>
                     <Link className='navLink' to="/checkout"><li>HOODIES</li></Link>
                     <li> | </li>
@@ -30,17 +30,19 @@ class Shop extends Component {
                     </div>
                 <div className="Shop_Caps_container">
                     <img src={ShopCaps} alt="" />
-                    <div className="Shop_Caps_text">Shop Caps</div>
+                    <Link className ='navLinkShop' to="/caps"><div className="Shop_Caps_text">Shop Caps</div></Link>
                     </div>
                 <div className="Shop_Hoodies_container">
                     <img src={HoodieModel} alt="" />
+                    <Link className='navLinkShop' to="/checkout"><div className="Shop_Hoodies_text">Shop Hoodies</div></Link>
                     </div>
                 <div className="Shop_Tees_container">
                     <img src={ShopTees} alt="" />
+                    <Link className='navLinkShop' to="/checkout"><div className="Shop_Tees_text">Shop Tees</div></Link>
                     </div>
 
                 <div className="Shop_footer">
-                <h3>50% of profit given</h3>
+                <h3>50% of all profit given</h3>
                     </div>
                 
             </div>

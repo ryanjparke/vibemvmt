@@ -35,7 +35,7 @@ class Nav extends Component {
             <Link className='navLink' to="/">
                 <img src={VibeMvmtLogo} alt="" />
                 </Link>
-            </div>
+            </div> 
 
             <div id="Nav_linksContainer">
                 <ul className="navbar_links">

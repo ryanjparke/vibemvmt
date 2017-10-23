@@ -8,6 +8,7 @@ import Shop from './components/Shop/Shop.js';
 import About from './components/About/About';
 import Movements from './components/Movements/Movements.js';
 import Checkout from './components/Checkout/Checkout';
+import Caps from './components/Caps/Caps.js';
 
 
 import router from './router';
@@ -24,8 +25,8 @@ class App extends Component {
         <Route component = { About } exact path = '/about' />
         <Route component = { Movements } exact path = '/movements' />
         <Route component = { Checkout } exact path = '/checkout' />
-        {/* <Route component = { Home } exact path = '/' /> */}
-        {/* <Route component = { Home } exact path = '/' /> */}
+        <Route component = { Caps } exact path = '/caps' />
+        {/* <Route component = { Hoodies } exact path = '/hoodies' /> */}
 
 
 
