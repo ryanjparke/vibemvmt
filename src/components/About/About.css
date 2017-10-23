@@ -5,6 +5,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-top: 150px;
 }
 
 .Story_container {
@@ -37,11 +38,11 @@
 }
 
 .Tribe_member img {
-    Height: 300px;
-    width: 300px;
-    background-color: grey;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
+    Height: 320px;
+    width: 440px;
+    /* background-color: grey; */
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* overflow: hidden; */
 }

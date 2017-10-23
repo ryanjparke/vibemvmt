@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './About.css';
 import Nav from '../Nav/Nav.js';
 import Founder from './../../assets/Founder.jpg';
+import CFO from './../../assets/CFO.jpg';
 
 
 class About extends Component {
@@ -27,10 +28,10 @@ class About extends Component {
                     <img src={Founder} alt="" />
                     </div>
                     <div className="Tribe_member">
-                        <h2>Founder</h2>
+                    <img src={Founder} alt="" />
                     </div>
                     <div className="Tribe_member">
-                        <h2>CFO</h2>
+                    <img src={CFO} alt="" />
                     </div>
                 </div>
             </div>

@@ -5,35 +5,90 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    
 }
 
 .quote_header {
-    margin-top: 30px;
+    margin-top: 138px;
     margin-left: 170px;
-    height: 50px;
+    margin-bottom: 40px;
+    height: 28px;
     width: 75%;
     display: flex;
     justify-content: center;
-    border-top: solid;
-    border-bottom: solid;
-    border-width: 1px;
+    /* border-top: solid; */
+    /* border-bottom: solid; */
+    /* border-width: 1px; */
 
 }
 
 .Products_header_nav {
     margin-top: 30px;
-    /* margin-left: 350px; */
+    margin-left: 175px;
+    margin-right: 175px;
     height: 50px;
-    width: 45%;
+    width: 75%;
     display: flex;
     align-items: center;
     justify-content: space-around;
     border-top: solid;
     border-bottom: solid;
-    border-width: 1px;
+    border-width: 0.5px;
 
 }
 
+.products_links {
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    list-style: none;
+    padding-top: 10px;
+    font-size: 22px;
+    font-family: sans-serif;
 
 
+}
 
+.Shop_Caps_container img{
+    /* display: flex; */
+    /* flex-direction: column; */
+    height: 750px;
+    width: 100%;
+    margin-top: 17px;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.Shop_Caps_text {
+    height: 60px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: lightcoral;
+    position: absolute;
+    bottom: 70px;
+    left: 250px;
+    font-size: 20px;
+    color: white;
+    opacity: 0.5;
+
+}
+
+.Shop_Hoodies_container img{
+    height: 750px;
+    width: 100%;
+}
+
+.Shop_Tees_container img{
+    height: 750px;
+    width: 100%;
+}
+.Shop_footer {
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    color: black;
+}
