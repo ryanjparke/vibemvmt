@@ -2,10 +2,14 @@ import React, { Component } from 'react';
 import './Home.css';
 import Nav from '../Nav/Nav.js';
 import { Carousel } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
+
 import ImgOne from '../../assets/ImgOne.jpg';
 import ImgTwo from '../../assets/ImgTwo.jpg';
 import ImgThree from '../../assets/ImgThree.jpg';
 import HoodieModel from '../../assets/HoodieModel.jpg';
+import ShopTees from '../../assets/ShopTees.jpg';
+import ShopCaps from '../../assets/ShopCaps.jpg';
 
 class Home extends Component {
     constructor(props) {
@@ -34,7 +38,7 @@ class Home extends Component {
                         <Carousel.Item>
                             <img width={1440} height={600} alt="900x500" src={ImgThree} />
                             <Carousel.Caption>
-                                <h3>Third slide label</h3>
+                                <h3>Third slide</h3>
                                 <p>Write something here</p>
                             </Carousel.Caption>
                         </Carousel.Item>
@@ -46,16 +50,33 @@ class Home extends Component {
                 </div>
 
                 <div className="Collections_container">
+                    <Link className='navLink' to="/shop"><div className="Indv_hoodie_container">
+                    <img src={ShopCaps} alt="" />
+                    </div></Link>
                     <div className="Indv_hoodie_container">
                     <img src={HoodieModel} alt="" />
                     </div>
                     <div className="Indv_hoodie_container">
-                    <img src={HoodieModel} alt="" />
-                    </div>
-                    <div className="Indv_hoodie_container">
-                    <img src={HoodieModel} alt="" />
+                    <img src={ShopTees} alt="" />
                     </div>
                 </div>
+                <div className="Footer_container">
+                
+                <div className="Left_footer">
+                    <h4>Left</h4>
+                    </div>
+                <div className="Center_footer">
+                    <h3>OUR MISSION</h3>
+                    <p>Vibe mvmt is dedicated to improving the lives of families affected by the financial and emotional struggles of cancer.</p>
+
+                </div>
+                <div className="Right_footer">
+                    <h4>Vibe with us</h4>
+                    </div>
+            
+                </div>
+                
+
 
 
             </div>

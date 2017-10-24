@@ -10,6 +10,7 @@ import Movements from './components/Movements/Movements.js';
 import Checkout from './components/Checkout/Checkout';
 import Caps from './components/Caps/Caps.js';
 import Cap from './components/Details/Cap/Cap';
+import Hoodies from './components/Hoodies/Hoodies';
 
 
 import router from './router';
@@ -28,6 +29,8 @@ class App extends Component {
         <Route component = { Checkout } exact path = '/checkout' />
         <Route component = { Caps } exact path = '/caps' />
         <Route component = { Cap } exact path = '/cap' />
+        <Route component = { Hoodies } exact path = '/hoodies' />
+
 
 
 

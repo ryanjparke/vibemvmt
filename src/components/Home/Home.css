@@ -2,6 +2,9 @@
     height: 100%;
     width: 100%;
     margin-top: 105px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .Carousel_container {
@@ -19,8 +22,11 @@
 
 .Collections_header {
     height: 100px;
-    width: 100%;
+    width: 300px;
     display: flex;
+    border-bottom: thin solid black;
+    margin-left: 40px;
+    margin-right: 80px;
     justify-content: center;
     align-items: center;
     font-family: sans-serif;
@@ -40,23 +46,62 @@
 .Indv_containers {
     height: 300px;
     width: 300px;
-    
     /* background-color: grey; */
     display: flex;
     align-content: center;
     justify-content: center;
     border-style: thin solid black;
     border-radius: 50%;
+    overflow: hidden;
 }
 
 .Indv_hoodie_container img {
     height: 400px;
     width: 400px;
-    background-color: grey;
+    /* background-color: grey; */
     display: flex;
     align-content: center;
     justify-content: center;
     border-radius: 50%;
     border-style: thin solid black;
 
+}
+
+.Footer_container {
+    height: 650px;
+    width: 100%;
+    background-color: black;
+    color: #CFCACA;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Left_footer {
+    height: 500px;
+    width: 425px;
+    display: flex;
+    border-right: thin solid white;
+    justify-content: space-around;
+}
+
+.Center_footer {
+    height: 500px;
+    width: 425px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    /* border-right: thin solid white; */
+    /* border-left: thin solid white; */
+
+}
+
+.Right_footer {
+    height: 500px;
+    width: 425px;
+    display: flex;
+    border-left: thin solid white;
+    justify-content: space-around;
 }
