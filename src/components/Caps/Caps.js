@@ -19,17 +19,17 @@ class Caps extends Component {
                 </div>
                 <div className="Caps_items_container">
                     <div className="indv_cap">
-                    <img src={GreyHat} alt="" />
+                        <Link className='navLinkShop' to="/cap"> <img src={GreyHat} alt="" /></Link>
                     </div>
                     <div className="indv_cap">
-                    <img src={CreamHat} alt="" />
+                        <Link className='navLinkShop' to="/checkout"> <img src={CreamHat} alt="" /></Link>
                     </div>
                     <div className="indv_green_cap">
-                    <img src={NavyGreenHat} alt="" />
+                        <Link className='navLinkShop' to="/checkout"> <img src={NavyGreenHat} alt="" /></Link>
                     </div>
-                    
+
                 </div>
-                
+
 
             </div>
         )

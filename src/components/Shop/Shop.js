@@ -34,11 +34,11 @@ class Shop extends Component {
                     </div>
                 <div className="Shop_Hoodies_container">
                     <img src={HoodieModel} alt="" />
-                    <Link className='navLinkShop' to="/checkout"><div className="Shop_Hoodies_text">Shop Hoodies</div></Link>
+                    <Link className='navLinkShop' to="/caps"><div className="Shop_Hoodies_text">Shop Hoodies</div></Link>
                     </div>
                 <div className="Shop_Tees_container">
                     <img src={ShopTees} alt="" />
-                    <Link className='navLinkShop' to="/checkout"><div className="Shop_Tees_text">Shop Tees</div></Link>
+                    <Link className='navLinkShop' to="/caps"><div className="Shop_Tees_text">Shop Tees</div></Link>
                     </div>
 
                 <div className="Shop_footer">
