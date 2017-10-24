@@ -1,0 +1,30 @@
+.Movements_container {
+    height: 100%;
+    width: 100%;
+}
+
+.Video_container {
+    height: 900px;
+    width: 100%;
+    margin-top: 106px;
+}
+
+.Video_container video {
+    height: 810px;
+    width: 100%;
+    opacity: 1;
+    z-index: -1;
+}
+
+.sample {
+    position: relative;
+    /* display: flex; */
+    /* justify-content: center; */
+    left: 300px;
+    top: 300px;
+    color: red;
+    z-index: 0;
+    /* font-size: 20px; */
+    /* margin-bottom: 200px; */
+}
+

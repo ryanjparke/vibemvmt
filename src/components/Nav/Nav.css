@@ -27,6 +27,11 @@
       text-decoration: none;
   }
 
+  .navLink:hover {
+      text-decoration: none;
+      color: lightseagreen;
+  }
+
 
   #Nav_linksContainer {
     height: 100px;
@@ -59,9 +64,16 @@
     padding-right: 20px;
 }
 
+
 .Login_button {
     color: black;
+    
 }
+.Login_button:hover {
+    text-decoration: none;
+    color: lightseagreen;
+}
+
 
 .Nav__label {
     display: flex;

@@ -75,7 +75,16 @@
     left: 250px;
     font-size: 25px;
     color: black;
-    opacity: 0.7;
+    opacity: 1;
+
+}
+
+.Shop_Caps_text:hover {
+    border-width: 2px;
+    /* background-color: lightskyblue; */
+    opacity: 1;
+    box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 1.1), 0 5px 3px 0 rgba(0, 0, 0, 0.5);
+
 
 }
 
@@ -98,7 +107,14 @@
     right: 250px;
     font-size: 25px;
     color: black;
-    opacity: 0.7;
+    opacity: 1;
+}
+
+.Shop_Hoodies_text:hover {
+    border-width: 2px;
+    /* background-color: lightskyblue; */
+    opacity: 1;
+    box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 1.1), 0 5px 3px 0 rgba(0, 0, 0, 0.5);
 }
 
 .Shop_Tees_container img{
@@ -121,16 +137,15 @@
     left: 250px;
     font-size: 25px;
     color: black;
-    opacity: 0.7;
-
+    opacity: 1;
 }
 
-/* a:hover { */
-    /* color: lightseagreen; */
-/* } */
-
-
-
+.Shop_Tees_text:hover {
+    border-width: 2px;
+    /* background-color: lightskyblue; */
+    opacity: 1;
+    box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 1.1), 0 5px 3px 0 rgba(0, 0, 0, 0.5);
+}
 
 
 .Shop_footer {
@@ -143,7 +158,4 @@
     color: black;
 }
 
-.navLinkShop: hover {
-    color:red;
 
-}

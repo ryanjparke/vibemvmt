@@ -14,7 +14,7 @@ class Shop extends Component {
             <div className="Shop_contianer">
                 <Nav />
                 <div className="quote_header" >
-                    <h4>Buy a product, help a family</h4>
+                    <h4>Purchase with purpose</h4>
                     
                 </div>
                 <div className="Products_header_nav" >
