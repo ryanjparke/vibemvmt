@@ -8,6 +8,7 @@ class Checkout extends Component {
         return (
             <div className="Checkout_container" >
                 <Nav />
+                <div className="Inner_bag_container">
                     <div className="Bag_header" >
                         <h3>Shopping Bag</h3>
 
@@ -23,6 +24,7 @@ class Checkout extends Component {
                     </div>
                     <div className="Checkout_container">
 
+                    </div>
                     </div>
 
 

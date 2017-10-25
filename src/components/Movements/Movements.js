@@ -12,10 +12,12 @@ class Movements extends Component {
             <div className="Movements_contianer">
                 <Nav />
                 <div className="Video_container" >
-                {/* <h1 className="sample">Hello There!</h1> */}
-                    <video loop autoPlay>
-                        <source src={GroundZero} type="video/mp4" />
+                    <video loop autoPlay><source src={GroundZero} type="video/mp4" />
                     </video>
+                    <div className="txt">SEE A NEED</div>
+                    <div className="txt_right">FILL A NEED</div>
+                    
+                
                         
 
                 </div>

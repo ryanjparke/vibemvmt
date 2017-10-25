@@ -1,17 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC:700');
+
 .Movements_container {
     height: 100%;
     width: 100%;
+    color: black;
 }
 
 .Video_container {
     height: 900px;
     width: 100%;
     margin-top: 106px;
+    z-index: -1;
 }
 
 .Video_container video {
     height: 810px;
     width: 100%;
+    position: relative;
     opacity: 1;
     z-index: -1;
+}
+
+.txt_right {
+    position: absolute;
+    top: 32%;
+    right: 100px;
+    color: white;
+    font-size: 180px;
+    font-weight: bold;
+    font-family: 'Amatic SC', cursive;
+
+
+}
+
+.txt {
+    display: flex;
+    height: 350px;
+    align-items: center;
+    /* width: 300px; */
+    padding-right: 70px;
+    border-right: thick solid white;
+    position: absolute;
+    top: 47.5%;
+    left: 400px;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 180px;
+    font-weight: bold;
+    font-family: 'Amatic SC', cursive;
+
 }
