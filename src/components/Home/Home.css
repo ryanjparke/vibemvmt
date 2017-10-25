@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:700');
+@import url('https://fonts.googleapis.com/css?family=Yellowtail');
+
+/* font-family: 'Yellowtail', cursive; */
+/* font-family: 'Raleway', sans-serif; */
+
 .Home_container {
     height: 100%;
     width: 100%;
@@ -29,9 +35,9 @@
     margin-right: 80px;
     justify-content: center;
     align-items: center;
-    font-family: sans-serif;
+    font-family: 'Yellowtail', cursive;
+    font-size: xx-large;
     color: black;
-    font-size: x-large;
 }
 
 .Collections_container {
@@ -44,26 +50,27 @@
 }
 
 .Indv_containers {
-    height: 300px;
-    width: 300px;
-    /* background-color: grey; */
+    height: 430px;
+    width: 430px;
+    background-color: grey;
     display: flex;
     align-content: center;
     justify-content: center;
-    border-style: thin solid black;
+    /* border: thin solid black; */
     border-radius: 50%;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .Indv_hoodie_container img {
-    height: 400px;
-    width: 400px;
+    height: 430px;
+    width: 437px;
     /* background-color: grey; */
     display: flex;
     align-content: center;
     justify-content: center;
     border-radius: 50%;
-    border-style: thin solid black;
+    border: thin solid grey;
+    /* overflow: hidden; */
 
 }
 
@@ -83,7 +90,19 @@
     width: 425px;
     display: flex;
     border-right: thin solid white;
-    justify-content: space-around;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    align-items: center;
+    font-family: 'Yellowtail', cursive;
+    font-size: xx-large;
+}
+
+.left_toe {
+    font-family: 'Raleway', sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+    margin-top: 96px;
+
 }
 
 .Center_footer {
@@ -92,11 +111,27 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-family: 'Yellowtail', cursive;
+    font-size: xx-large;
     /* justify-content: center; */
     /* border-right: thin solid white; */
     /* border-left: thin solid white; */
+}
+
+.mission_container {
+    height: 275px;
+    width: 400px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+
 
 }
+
+
 
 .Right_footer {
     height: 500px;
@@ -104,4 +139,6 @@
     display: flex;
     border-left: thin solid white;
     justify-content: space-around;
+    font-family: 'Yellowtail', cursive;
+    font-size: xx-large;
 }

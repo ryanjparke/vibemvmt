@@ -12,7 +12,7 @@ class About extends Component {
             <div className="About_container">
                 <Nav />
                 <div className="Story_header">
-                    <h2>Our Story</h2>
+                    <p>Our Story</p>
                 </div>
                 <div className="Story_container">
                     <p>Vibe MVMT was founded upon four basic principles: Fun, Health, Happiness and Safety.  These four principles were instilled into the companies founders Ryan Parke, Deborah Parke and Kevin Edmondson by Troy Parke.  Troy, a father of four, fought courageously against Multiple Myeloma Cancer and inspired many through his positive attitude, or vibe, toward his unfortunate situation.  Despite his fight, Troy was consumed by this cancer in November 2014 and has left a positive vibe that is spreading quickly throughout the world.</p>
@@ -21,7 +21,7 @@ class About extends Component {
                     <p>To date, we have donated over 1,000 dollars toward families in which fathers are battling Multiple Myeloma.  We seek to expand and support more individuals and families.  Unite with us in our mission to spread Fun, Health, Happiness and Safety by joining the Vibe Tribe.</p>
                 </div>
                 <div className="Tribe_header">
-                    <h2>Our Tribe</h2>
+                    <p>Our Tribe</p>
                 </div>
                 <div className="Tribe_container">
                     <div className="Tribe_member">

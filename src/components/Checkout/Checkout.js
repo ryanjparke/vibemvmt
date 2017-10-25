@@ -34,7 +34,7 @@ class Checkout extends Component {
                     </div>
                     <StripeCheckout className="pay_button"
                         token={this.onToken}
-                        stripeKey={ process.env.REACT_APP_SECRET_KEY }
+                        stripeKey={ process.env.REACT_APP_PUBLISHABLE_KEY }
                         amount={1000}
                         />
 

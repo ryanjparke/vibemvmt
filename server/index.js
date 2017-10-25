@@ -5,8 +5,9 @@ const express = require ('express')
     ,massive = require('massive')
     ,passport = require('passport')
     ,Auth0Strategy = require('passport-auth0')
-    ,stripe = require('stripe')(config.secret_key)
-    ,cors = require('cors');
+    ,cors = require('cors')
+    ,stripe = require('stripe')(process.env.REACT_APP_SECRET_KEY)
+    ,controller = require ('./controller.js');
 
 
 const app = express();
@@ -83,6 +84,9 @@ passport.deserializeUser( function( id, done ) {
 })
 
 
+app.get('/api/getproducts', controller.getProducts);
+
+
 app.use(bodyParser.json());
 app.use(cors())
 
@@ -113,7 +117,7 @@ app.post('api/payment', function(req, res, next){
       amount: convertedAmt, //amount in cents, again
       curency: 'usd',
       source: req.body.token.id,
-      description: 'Test charge from react app'
+      description: 'Test charge from vibe mvmt'
       }, function(err, charge) {
           if (err) return res.sendStatus(500)
             return res.sendStatus(200);
@@ -122,6 +126,8 @@ app.post('api/payment', function(req, res, next){
   // }
 });
 });
+
+
 
 
 

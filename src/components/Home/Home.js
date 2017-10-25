@@ -10,6 +10,8 @@ import ImgThree from '../../assets/ImgThree.jpg';
 import HoodieModel from '../../assets/HoodieModel.jpg';
 import ShopTees from '../../assets/ShopTees.jpg';
 import ShopCaps from '../../assets/ShopCaps.jpg';
+import {getProducts} from './../../ducks/users';
+import { connect } from 'react-redux';
 
 class Home extends Component {
     constructor(props) {
@@ -18,6 +20,10 @@ class Home extends Component {
         this.state = {
             slideCount: 1
         }
+    }
+
+    componentDidMount() {
+        this.props.getProducts()
     }
     render() {
         return (
@@ -46,32 +52,40 @@ class Home extends Component {
                 </div>
 
                 <div className="Collections_header">
-                    <h1>Collections</h1>
+                    <p>Collections</p>
                 </div>
 
                 <div className="Collections_container">
                     <Link className='navLink' to="/shop"><div className="Indv_hoodie_container">
                     <img src={ShopCaps} alt="" />
                     </div></Link>
-                    <div className="Indv_hoodie_container">
+                    <Link className='navLink' to="/shop"><div className="Indv_hoodie_container">
                     <img src={HoodieModel} alt="" />
-                    </div>
-                    <div className="Indv_hoodie_container">
+                    </div></Link>
+                    <Link className='navLink' to="/shop"><div className="Indv_hoodie_container">
                     <img src={ShopTees} alt="" />
-                    </div>
+                    </div></Link>
                 </div>
                 <div className="Footer_container">
                 
                 <div className="Left_footer">
-                    <h4>Left</h4>
+                    <p>Left</p>
+                    <div className="left_toe">
+                    <p>Some text</p>
+                    </div>
                     </div>
                 <div className="Center_footer">
-                    <h3>OUR MISSION</h3>
-                    <p>Vibe mvmt is dedicated to improving the lives of families affected by the financial and emotional struggles of cancer.</p>
+                    <p>OUR MISSION</p>
+                    <p>_____________________</p>
+                    <div className="mission_container">
+                    <p>Vibe mvmt is dedicated to improving the lives of families affected by the financial and emotional struggles of cancer. Through sales and generous donations, we support families in which the major income source is battling cancer.  Thanks to our awesome supporters and customers, Vibe Mvmt has provided service and funds to multiple families since June 1, 2016</p>
+                    </div>
 
                 </div>
                 <div className="Right_footer">
-                    <h4>Vibe with us</h4>
+                    <div className="right_toe">
+                    <p>Vibe with us</p>
+                    </div>
                     </div>
             
                 </div>
@@ -84,4 +98,7 @@ class Home extends Component {
     }
 }
 
-export default Home;
+// export default Home;
+
+
+export default connect(null, { getProducts })(Home);
