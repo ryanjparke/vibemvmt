@@ -1,5 +1,9 @@
 import React, { Component } from 'react';
 import './Checkout.css';
+import StripeCheckout from 'react-stripe-checkout';
+// import stripe from'./stripeKey';
+import axios from 'axios';
+
 
 import Nav from './../Nav/Nav'
 
@@ -20,12 +24,19 @@ class Checkout extends Component {
                         <h4>Total(s)</h4>
                     </div>
                     <div className="Purchasing_container" >
-                        <p>Item to be purchased</p>
+                        <p>item</p>
+                        <p>item</p>
+                        <p>item</p>
+                        <p>item</p>
+                        <p>item</p>
+                        <p>item</p>
                     </div>
-                    <div className="Checkout_container">
-
                     </div>
-                    </div>
+                    <StripeCheckout className="pay_button"
+                        token={this.onToken}
+                        stripeKey={ process.env.REACT_APP_SECRET_KEY }
+                        amount={1000}
+                        />
 
 
                 </div>

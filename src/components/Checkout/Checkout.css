@@ -1,19 +1,21 @@
 .Checkout_container {
-    height: 1000px;
+    height: 100%;
     width: 100%;
-    margin-top: 105px;
+    margin-top: 200px;
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
+    justify-content: center;
     align-items: center;
     z-index: -1;
-    background-color: peachpuff;
+    /* background-color: grey; */
 }
 
 .Inner_bag_container {
-    height: 600px;
-    width: 800px;
+    height: 400px;
+    width: 1200px;
+    margin-top: 5px;
     background-color: snow;
+    border: thin solid black;
 }
 
 /* .Quote_container {
@@ -27,31 +29,42 @@
 .Bag_header {
     height: 70px;
     width: 100%;
-    margin-top: 200px;
+    margin-top: 40px;
     display: flex;
     justify-content: center;
 }
 
 .Purchasing_header {
     height: 60px;
-    width: 70%;
-    margin-top: 20px;
+    width: 100%;
+    /* margin-top: 20px; */
+    /* margin-left:150px; */
+    margin-right: 90px;
     border-bottom: thin solid black;
     border-top: thin solid black;
     /* border-width: 1px; */
     display: flex;
     flex-direction: row;
+    align-items: center;
     justify-content: space-around;
 
 }
 
 .Purchasing_container {
-    height: 300px;
-    width: 70%;
-    border-bottom: thin solid black;
+    /* height: 300px; */
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    /* border-bottom: thin solid black; */
     /* border-top: solid; */
     /* border-width: 1px; */
-    padding: 10px;
+    /* padding: 10px; */
+}
+
+.pay_button {
+    opacity: 1;
+    display: flex;
+    justify-content: right;
 }
 
 

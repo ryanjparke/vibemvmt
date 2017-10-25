@@ -34,12 +34,6 @@ class App extends Component {
 
 
 
-
-
-
-
-
-
         {/* <Nav /> */}
         {/* <Home /> */}
         {/* <Shop /> */}

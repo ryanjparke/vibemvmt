@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:700');
+@import url('https://fonts.googleapis.com/css?family=Yellowtail');
 
 .Shop_container {
     height: 100%;
@@ -14,10 +15,12 @@
     margin-top: 138px;
     margin-left: 170px;
     margin-bottom: 40px;
-    height: 28px;
+    height: 35px;
     width: 75%;
     display: flex;
     justify-content: center;
+    font-family: 'Yellowtail', cursive;
+    font-size: 40px;
     /* border-top: solid; */
     /* border-bottom: solid; */
     /* border-width: 1px; */
@@ -46,7 +49,6 @@
     list-style: none;
     padding-top: 10px;
     font-size: 22px;
-    font-family: sans-serif;
 
 
 }
@@ -76,6 +78,7 @@
     bottom: 70px;
     left: 250px;
     font-size: 25px;
+    font-family: 'Raleway', sans-serif;
     color: black;
     opacity: 1;
 
@@ -110,6 +113,7 @@
     font-size: 25px;
     color: black;
     opacity: 1;
+    font-family: 'Raleway', sans-serif; 
 }
 
 .Shop_Hoodies_text:hover {
@@ -140,6 +144,7 @@
     font-size: 25px;
     color: black;
     opacity: 1;
+    font-family: 'Raleway', sans-serif;
 }
 
 .Shop_Tees_text:hover {

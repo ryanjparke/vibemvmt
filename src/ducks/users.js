@@ -21,7 +21,7 @@ export function getUserInfo() {
 
 }
 
-export function addProductToCart(val) {
+export function addToCart(val) {
     return {
       type: ADD_TO_CART,
       payload: val
@@ -31,11 +31,11 @@ export function addProductToCart(val) {
 export default function reducer(state = initialState, action) {
     switch (action.type) {
         case GET_USER_INFO + '_FULFULLED':
-        return Object.assign({}, state, {user: action.payload})
+            return Object.assign({}, state, {user: action.payload})
         case ADD_TO_CART:
-        const newCart = state.cart.slice();
-        newCart.push(action.payload);
-        return Object.assign({}, state, {cart: newCart});
+            const newCart = state.cart.slice();
+            newCart.push(action.payload);
+            return Object.assign({}, state, {cart: newCart});
 
         default:
 
