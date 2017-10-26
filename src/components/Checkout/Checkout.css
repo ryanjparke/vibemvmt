@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:700');
+@import url('https://fonts.googleapis.com/css?family=Yellowtail');
+
 .Checkout_container {
     height: 100%;
     width: 100%;
@@ -32,6 +35,8 @@
     margin-top: 40px;
     display: flex;
     justify-content: center;
+    font-family: 'Yellowtail', cursive;
+    font-size: 30px;
 }
 
 .Purchasing_header {
@@ -47,6 +52,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
+    
 
 }
 
@@ -54,17 +60,62 @@
     /* height: 300px; */
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
     /* border-bottom: thin solid black; */
     /* border-top: solid; */
     /* border-width: 1px; */
     /* padding: 10px; */
 }
 
+.indv_purchase {
+    width: 100%;
+    display: flex;
+    /* justify-content: space-around; */
+    /* background-color: red; */
+    /* margin-right: 200px; */
+    /* border-bottom: thin solid black; */
+}
+
+.product_purchase {
+    margin-top: 10px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    border-bottom: thin solid black;
+}
+
+.price_purchase {
+    margin-top: 10px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    border-bottom: thin solid black;
+}
+
+.desc_purchase {
+    margin-top: 10px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    border-bottom: thin solid black;
+}
+
+.Checkout_btn_container {
+    /* height: 100px; */
+    /* width: 200px; */
+    display: flex;
+    flex-direction: column;
+    margin-left: 1080px;
+}
+
 .pay_button {
     opacity: 1;
     display: flex;
-    justify-content: right;
+    align-items: right;
 }
 
 

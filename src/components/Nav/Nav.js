@@ -5,7 +5,7 @@ import VibeMvmtLogo from './../../assets/VibeMvmtLogo.png';
 
 import './Nav.css';
 
-import ShoppingBasket from 'react-icons/lib/md/shopping-basket';
+// import ShoppingBasket from 'react-icons/lib/md/shopping-basket';
 
 class Nav extends Component {
     constructor(props) {
@@ -53,8 +53,9 @@ class Nav extends Component {
             <div className={this.state.slideVisible ? 'slide_open' : 'slide'}>
             
 
-            <div id="Basket_container">
-            <ShoppingBasket onClick={ this.openSlide } />
+            <div className="Basket_container">
+            {/* <ShoppingBasket onClick={ this.openSlide } /> */}
+            <Link className="checkoutLink"to="/checkout"><i className="fa fa-cart-plus" aria-hidden="true"></i></Link>
             </div>
 
 

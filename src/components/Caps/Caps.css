@@ -1,74 +1,6 @@
-.Caps_shop_container {
-    height: 1000px;
-    width: 100%;
-    margin-top: 105px;
-    background-color: white;
-    flex-direction: column;
-    /* opacity: 0.4; */
-}
+@import url('https://fonts.googleapis.com/css?family=Raleway:700');
+@import url('https://fonts.googleapis.com/css?family=Yellowtail');
 
-.Caps_header {
-    height: 200px;
-    width: 100%;
-    background-color: white;
-    /* opacity: 0.5; */
-    display: flex;
-    margin-top: 130px;
-    align-items: top;
-    justify-content: space-around;
-}
-
-.Caps_items_container {
-    height: 900;
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    align-items: left;
-    flex-direction: column;
-}
-
-.indv_cap {
-    height: 220px;
-    width: 220px;
-    display: flex;
-    justify-content: space-between;
-    margin-left: 100px;
-    margin-bottom: 50px;
-}
-
-.indv_cap img {
-    height: 220px;
-    width: 220px;
-    border-radius: 50%;
-    border-style: solid;
-    border-width: 1px;
-    /* opacity: 1; */
-}
-
-.indv_green_cap {
-    height: 220px;
-    width: 220px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    border-radius: 50%;
-    border-style: solid;
-    border-width: 1px;
-    margin-left: 100px;
-}
-
-.indv_green_cap img {
-    height: 220px;
-    width: 220px;
-    border-radius: 50%;
-    display: flex;
-    overflow: hidden;
-
-}
-
-.navLinkShop {
-    color: black;
-}
 
 .navLinkShop:hover {
     border-width: 4px;
@@ -77,5 +9,100 @@
     /* background-color: lightskyblue; */
     opacity: 1;
     box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 1.1), 0 5px 3px 0 rgba(0, 0, 0, 0.5);
+    /* transition: 1s; */
 }
+
+
+.Caps_shop_container {
+    /* height: 1000px; */
+    /* width: 100%; */
+    margin-top: 105px;
+    background-color: lightcyan;
+    flex-direction: column;
+    /* opacity: 0.4; */
+}
+
+.Items_header {
+    height: 200px;
+    width: 100%;
+    background-color: white;
+    /* opacity: 0.5; */
+    display: flex;
+    margin-top: 100px;
+    align-items: top;
+    justify-content: space-around;
+    align-items: center;
+    background-color: lightcyan;
+    font-family: 'Yellowtail', cursive;
+    font-size: 40px;
+}
+
+.All_items_container {
+    height: 900;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+     /* align-items: center; */
+    flex-direction: row;
+    /* background-color: grey; */
+}
+
+.indv_cap {
+    height: 220px;
+    width: 220px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    border-radius: 50%;
+    /* background-color: lightgray; */
+}
+
+.indv_cap img {
+    height: 220px;
+    width: 220px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 1px;
+    /* background-color: grey; */
+    /* opacity: 1; */
+}
+
+.indv_green_cap {
+    height: 220px;
+    width: 220px;
+    /* display: flex; */
+    /* align-items: center; */
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.indv_green_cap img {
+    height: 250px;
+    width: 220px;
+    border-radius: 50%;
+    /* display: flex; */
+    overflow: hidden;
+
+}
+
+/* .hoodies_items_container {
+        height: 300px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        border: thin solid black;
+} */
+
+/* .tees_items_container {
+    height: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: thin solid black;
+
+} */
+
 

@@ -1,4 +1,5 @@
 import axios from 'axios';
+import swal from 'sweetalert';
 
 
 const initialState = {
@@ -41,7 +42,7 @@ export function getProducts() {
 }
 
 export function addToCart(val) {
-    alert('Added to cart!')
+    swal("Added to cart!", "Continue Shopping", "success");
     return {
       type: ADD_TO_CART,
       payload: val

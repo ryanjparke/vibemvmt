@@ -65,8 +65,7 @@
     display: flex;
     justify-content: center;
     border-radius: 180px;
-    padding-right: 20px;
-}
+    padding-right: 20px;}
 
 
 .Login_button {
@@ -84,16 +83,23 @@
     justify-content: space-between;
 }
 
-  #Basket_container {
-      font-size: 32px;
-      color: black;
-      padding-left: 25px;
-      cursor: pointer;
+.fa fa-cart-plus {
+    height: 100px;
+    width: 100px;
+}
+
+  /* .Basket_container {
+      /* height: 90px; */
+      /* font-size: 70px; */
+      /* color: black; */
+      /* padding-left: 25px; */
+      /* cursor: pointer; */
       /* transition: 1.4s; */
       
-  }
 
-.slide_open {
+
+
+/* .slide_open {
     height: 725px;
     width: 370px;
     position: fixed;
@@ -105,7 +111,7 @@
     box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 1.1), 0 5px 3px 0 rgba(0, 0, 0, 0.5);
     /* border-style: solid; */
     /* border-width: 2px; */
-    border-bottom-left-radius: 100px;
+    /* border-bottom-left-radius: 100px;
     border-top-left-radius: 100px;
     background-color: none;
     overflow-x: hidden;
@@ -115,6 +121,14 @@
     opacity: .89;
     background-color: darkgrey;
     transition: .81s;
+}  */
+
+.checkoutLink {
+    color: black;
+}
+
+.checkoutLink:hover {
+    color: black;
 }
 
 

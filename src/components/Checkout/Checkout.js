@@ -17,32 +17,35 @@ class Checkout extends Component {
                 <Nav />
                 <div className="Inner_bag_container">
                     <div className="Bag_header" >
-                        <h3>Shopping Bag</h3>
+                        <p>Shopping Bag</p>
 
                     </div>
                     <div className="Purchasing_header" >
                         <h4>Product(s)</h4>
-                        <h4>QTY</h4>
                         <h4>Price</h4>
+                        <h4>Description</h4>
                         <h4>Total(s)</h4>
                     </div>
                     <div className="Purchasing_container" >
                         {this.props.cart.map((item, i) => {
-                            return <div key = {i} >
-                            {item.productname}
-                            {item.price}
-                            {item.productdescription}
+                            return <div className="indv_purchase" key = {i} >
+                            <p className="product_purchase">{item.productname}</p>
+                            <p className="price_purchase">{item.price}</p>
+                            <p className="desc_purchase">{item.productdescription}</p>
                             
                                     </div>
 
                         })}
                     </div>
                     </div>
+                    <div className="Checkout_btn_container">
                     <StripeCheckout className="pay_button"
                         token={this.onToken}
                         stripeKey={ process.env.REACT_APP_PUBLISHABLE_KEY }
                         amount={1000}
                         />
+
+                        </div>
 
 
                 </div>

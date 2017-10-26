@@ -17,11 +17,9 @@ class Movements extends Component {
                     <div className="txt">SEE A NEED</div>
                     <div className="txt_right">FILL A NEED</div>
                     
-                
-                        
-
                 </div>
-
+                <div className="rexburg_mvmt">
+                    </div>
 
 
 
