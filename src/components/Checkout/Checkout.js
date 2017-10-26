@@ -3,12 +3,15 @@ import './Checkout.css';
 import StripeCheckout from 'react-stripe-checkout';
 // import stripe from'./stripeKey';
 import axios from 'axios';
+import { connect } from 'react-redux';
 
 
 import Nav from './../Nav/Nav'
 
 class Checkout extends Component {
     render() {
+        console.log(this.props.cart)
+        // const {price, productdescription, productname} = this.props.cart
         return (
             <div className="Checkout_container" >
                 <Nav />
@@ -24,12 +27,15 @@ class Checkout extends Component {
                         <h4>Total(s)</h4>
                     </div>
                     <div className="Purchasing_container" >
-                        <p>item</p>
-                        <p>item</p>
-                        <p>item</p>
-                        <p>item</p>
-                        <p>item</p>
-                        <p>item</p>
+                        {this.props.cart.map((item, i) => {
+                            return <div key = {i} >
+                            {item.productname}
+                            {item.price}
+                            {item.productdescription}
+                            
+                                    </div>
+
+                        })}
                     </div>
                     </div>
                     <StripeCheckout className="pay_button"
@@ -44,4 +50,10 @@ class Checkout extends Component {
     }
 }
 
-export default Checkout;
+function mapStateToProps(state) {
+    return({
+        cart: state.cart
+    })
+}
+
+export default connect(mapStateToProps)(Checkout);

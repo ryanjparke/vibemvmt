@@ -27,7 +27,7 @@ export function getUserInfo() {
 }
 
 export function getProducts() {
-    const products = axios.get('/api/getproducts')
+    let products = axios.get('/api/getproducts')
     .then(res => {
         console.log(res.data)
         return res.data
@@ -41,6 +41,7 @@ export function getProducts() {
 }
 
 export function addToCart(val) {
+    alert('Added to cart!')
     return {
       type: ADD_TO_CART,
       payload: val

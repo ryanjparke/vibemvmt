@@ -10,7 +10,7 @@ import ImgThree from '../../assets/ImgThree.jpg';
 import HoodieModel from '../../assets/HoodieModel.jpg';
 import ShopTees from '../../assets/ShopTees.jpg';
 import ShopCaps from '../../assets/ShopCaps.jpg';
-import {getProducts} from './../../ducks/users';
+import {getProducts} from './../../ducks/reducer';
 import { connect } from 'react-redux';
 
 class Home extends Component {
