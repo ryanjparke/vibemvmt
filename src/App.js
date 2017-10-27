@@ -14,6 +14,7 @@ import Hoodies from './components/Hoodies/Hoodies';
 import Hoodie from './components/Details/Hoodie/Hoodie';
 import Tees from './components/Tees/Tees';
 import Tee from './components/Details/Tee/Tee';
+import Halloween from './components/Halloween/Halloween';
 
 
 
@@ -37,6 +38,7 @@ class App extends Component {
         <Route component = { Hoodie } exact path = '/hoodie' />
          <Route component = { Tees } exact path = '/tees' />
         <Route component = { Tee } exact path = '/tee' />
+        <Route component = { Halloween } exact path = '/halloween' />
 
 
 

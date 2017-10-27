@@ -47,22 +47,16 @@ class Nav extends Component {
 
             </div>
             <div className="Login_container" >
-            <a className="Login_button"href={process.env.REACT_APP_LOGIN }><h5>Login / Register</h5></a>
+            <a className="Login_button"href={process.env.REACT_APP_LOGIN }><h4>Login / Register</h4></a>
             </div>
 
-            <div className={this.state.slideVisible ? 'slide_open' : 'slide'}>
+            {/* <div className={this.state.slideVisible ? 'slide_open' : 'slide'}> */}
             
 
             <div className="Basket_container">
             {/* <ShoppingBasket onClick={ this.openSlide } /> */}
             <Link className="checkoutLink"to="/checkout"><i className="fa fa-cart-plus" aria-hidden="true"></i></Link>
             </div>
-
-
-            
-
-
-        </div>
 
         </div>
 

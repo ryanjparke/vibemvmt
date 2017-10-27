@@ -21,11 +21,11 @@ class Shop extends Component {
                     <ul className="products_links">
                     <Link className='navLink' to="/caps"><li>CAPS</li></Link>
                     <li> | </li>
-                    <Link className='navLink' to="/checkout"><li>HOODIES</li></Link>
+                    <Link className='navLink' to="/caps"><li>HOODIES</li></Link>
                     <li> | </li>
-                    <Link className='navLink' to="/checkout"><li>TEES</li></Link>
+                    <Link className='navLink' to="/caps"><li>TEES</li></Link>
                     <li> | </li>
-                    <Link className='navLink' to="/checkout"><li>Halloween Edition</li></Link>
+                    <Link className='navLink' to="/halloween"><li>Halloween Edition</li></Link>
                     </ul>
                     </div>
                 <div className="Shop_Caps_container">
@@ -34,7 +34,7 @@ class Shop extends Component {
                     </div>
                 <div className="Shop_Hoodies_container">
                     <img src={HoodieModel} alt="" />
-                    <Link className='navLinkShop' to="/hoodies"><div className="Shop_Hoodies_text">Shop Hoodies</div></Link>
+                    <Link className='navLinkShop' to="/caps"><div className="Shop_Hoodies_text">Shop Hoodies</div></Link>
                     </div>
                 <div className="Shop_Tees_container">
                     <img src={ShopTees} alt="" />

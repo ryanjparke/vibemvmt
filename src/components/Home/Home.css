@@ -88,10 +88,11 @@
 .Left_footer {
     height: 500px;
     width: 425px;
+    /* margin-bottom: 95px; */
     display: flex;
     border-right: thin solid white;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
     font-family: 'Yellowtail', cursive;
     font-size: xx-large;
@@ -102,7 +103,7 @@
     font-family: 'Raleway', sans-serif;
     font-weight: lighter;
     font-size: 20px;
-    margin-top: 96px;
+    margin-top: 140px;
     display: flex;
     flex-direction: column;
     /* justify-content: center; */
@@ -112,17 +113,20 @@
 }
 
 .giveback_inputContainer {
-    height: 100px;
-    width: 300px;
-    background-color: wheat;
+    height: 130px;
+    width: 310px;
+    background-color: mintcream;
+    opacity: 1;
     margin-top: 70px;
     font-size: 15px;
     color: black;
     display: flex;
-    justify-content: center;
+    /* justify-content: space-around; */
     align-items: center;
     font-family: 'Raleway', sans-serif;
     font-weight: lighter;
+    border-radius: 10%;
+    border: thin solid white;
     /* flex-direction: column; */
 }
 
@@ -157,6 +161,7 @@
 .Right_footer {
     height: 500px;
     width: 425px;
+    /* margin-bottom: 95px; */
     display: flex;
     border-left: thin solid white;
     justify-content: space-around;
@@ -167,17 +172,33 @@
 .right_toe {
     display: flex;
     flex-direction: column;
+    /* margin-top: 0px; */
 }
 
 .social_container {
-    margin-top: 40px;
+    width: 170px;
+    margin-top: 90px;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
+    text-decoration: none;
     color: white;
+    /* background-color: red; */
 
 }
 
-social_link {
+.fa fa-instagram {
     color: white;
+    /* background-color: white; */
+
+}
+
+.right_toe a {
+    color: white;
+    font-size: 40px;
+}
+
+.insta_link, .insta_link:active, .insta_link:visited {
+    color: white;
+    /* background-color: white; */
 }

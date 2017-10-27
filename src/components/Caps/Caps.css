@@ -17,7 +17,7 @@
     /* height: 1000px; */
     /* width: 100%; */
     margin-top: 105px;
-    background-color: lightcyan;
+    background-color: white;
     flex-direction: column;
     /* opacity: 0.4; */
 }
@@ -32,7 +32,7 @@
     align-items: top;
     justify-content: space-around;
     align-items: center;
-    background-color: lightcyan;
+    /* background-color: lightcyan; */
     font-family: 'Yellowtail', cursive;
     font-size: 40px;
 }

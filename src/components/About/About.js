@@ -24,22 +24,31 @@ class About extends Component {
                     <p>Our Tribe</p>
                 </div>
                 <div className="Tribe_container">
+                <p className="coo_member_name">Kevin Edmondson</p>
+                <p className="coo_member">COO</p>
+                <p className="founder_member_name">Ryan Parke</p>
+                <p className="founder_member">Founder</p>
+                <p className="cfo_member_name">Deborah Parke</p>
+                <p className="cfo_member">CFO</p>
+
                     <div className="Tribe_member">
-                    <img src={Founder} alt="" />
+                        <img src={Founder} alt="" />
                     </div>
                     <div className="Tribe_member">
-                    <img src={Founder} alt="" />
+                        <img src={Founder} alt=""
+                        />
                     </div>
                     <div className="Tribe_member">
-                    <img src={CFO} alt="" />
+                        <img src={CFO} alt="" />
                     </div>
                 </div>
             </div>
 
         )
     }
-
 }
+
+
 
 export default About;
 

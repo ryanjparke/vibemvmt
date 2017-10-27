@@ -2,7 +2,7 @@
     height: 900px;
     width: 100%;
     margin-top: 105px;
-    background-color: snow;
+    background-color: mintcream;
     display: flex;
     justify-content: top;
     align-items: center;
@@ -10,8 +10,8 @@
 }
 
 .Charcoal_hoodieContainer {
-    height: 320px;
-    width: 320px;
+    height: 420px;
+    width: 420px;
     margin-top: 50px;
     border-top: thin solid black;
     border-bottom: thin solid black;
@@ -20,8 +20,8 @@
 }
 
 .Charcoal_hoodieContainer img {
-    height: 300px;
-    width: 300px;
+    height: 400px;
+    width: 400px;
 }
 
 .Charcoal_hoodieDesc {

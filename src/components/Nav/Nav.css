@@ -60,16 +60,18 @@
 }
 
 .login_container {
-    height: 95px;
-    width: 95px;
-    display: flex;
-    justify-content: center;
-    border-radius: 180px;
-    padding-right: 20px;}
+    /* height: 95px; */
+    /* width: 95px; */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* border-radius: 180px; */
+    /* padding-left: 20px; */
+}
 
 
 .Login_button {
     color: black;
+    font-size: 20px;
     
 }
 .Login_button:hover {
@@ -83,18 +85,12 @@
     justify-content: space-between;
 }
 
-.fa fa-cart-plus {
-    height: 100px;
-    width: 100px;
-}
-
-  /* .Basket_container {
+  .Basket_container {
       /* height: 90px; */
-      /* font-size: 70px; */
-      /* color: black; */
-      /* padding-left: 25px; */
-      /* cursor: pointer; */
-      /* transition: 1.4s; */
+      font-size: 40px;
+      padding-left: 15px;
+      padding-right: 1px;
+  }
       
 
 

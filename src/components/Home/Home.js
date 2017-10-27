@@ -102,10 +102,11 @@ class Home extends Component {
                         <div className="right_toe">
                             <p>Vibe with us</p>
                             <div className="social_container">
-                            <i className="fa fa-instagram" aria-hidden="true"></i>
-                        
-                            <i className="fa fa-facebook-square" aria-hidden="true"></i>
-                            <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                            <a href="https://www.instagram.com/vibemvmt/"><i className="fa fa-instagram" aria-hidden="true"></i></a>
+                            <a href="https://www.facebook.com/VibeMvmt/?ref=bookmarks">
+                            <i className="fa fa-facebook-square" aria-hidden="true"></i></a>
+                            <a href="">
+                            <i class="fa fa-envelope-o" aria-hidden="true"></i></a>
                             </div>
                         </div>
                     </div>
