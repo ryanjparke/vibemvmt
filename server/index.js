@@ -21,6 +21,7 @@ app.use(session({
 
 app.use(passport.initialize());
 app.use(passport.session());
+app.use( express.static( `${__dirname}/../build` ) );
 
 // this is for server creation connected to .env
 massive(process.env.CONNECTION_STRING).then (db => {
@@ -127,8 +128,10 @@ app.post('api/payment', function(req, res, next){
 });
 });
 
-
-
+const path = require('path')
+app.get('*', (req, res)=>{
+  res.sendFile(path.join(__dirname, '../build/index.html'));
+})
 
 
 const PORT = 3005;
