@@ -3,6 +3,7 @@ import './About.css';
 import Nav from '../Nav/Nav.js';
 import Founder from './../../assets/Founder.jpg';
 import CFO from './../../assets/CFO.jpg';
+import Footer from '../Footer/Footer'
 
 
 class About extends Component {
@@ -42,6 +43,7 @@ class About extends Component {
                         <img src={CFO} alt="" />
                     </div>
                 </div>
+                <Footer />
             </div>
 
         )

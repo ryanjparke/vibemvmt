@@ -12,7 +12,7 @@
     z-index: 2;
     overflow: hidden;
     top: 0;
-    /* background-color: #E5EEC1; */
+    background-color: white;
   }
 
   .Logo_container img {
@@ -25,7 +25,7 @@
   }
 
   .navLink {
-      color: black;
+      color: #222222;
       text-decoration: none;
       font-family: 'Raleway', sans-serif;
       font-size: 22px;
@@ -45,7 +45,7 @@
     align-items: center;
     justify-content: center;
     text-decoration: none;
-    /* background-color: #E5EEC1; */
+    background-color: white;
 }
 
 .navbar_links {
@@ -124,7 +124,7 @@
 }
 
 .checkoutLink:hover {
-    color: black;
+    color: #222222;
 }
 
 
